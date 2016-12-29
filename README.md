@@ -33,7 +33,7 @@ table {
   <body>
     <hr>
     <br>
-    <h1> &nbsp DEVCOM PROJECTS</h1>
+    <h1> DEVCOM PROJECTS</h1>
 <br>
 <br>
 <br>
