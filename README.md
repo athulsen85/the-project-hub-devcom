@@ -66,16 +66,16 @@ we are devcom
 <table >
 <tr>
       <th>Sooraj Parakkattil</th>
-      <th>&nbsp&nbspTeam Leader</th>
+      <th> Team Leader</th>
       <th><a href="https://www.facebook.com/soorajiam"><span class="glyphicon glyphicon-user"></span></a></th>
       </tr>
 <tr>
       <th>Adnan Maqbool</th>
-      <th>&nbsp&nbspCommunicator</th>
+      <th>Communicator</th>
       <th><a href="https://www.facebook.com/profile.php?id=1397376003"><span class="glyphicon glyphicon-user"></span></a></th></tr>
 <tr>
       <th>Megha Nair</th>
-      <th>&nbsp&nbspCoordinator</th>
+      <th>Coordinator</th>
       <th><a href="https://www.facebook.com/megha.nair.758"><span class="glyphicon glyphicon-user"></span> </a></th></tr>
 <tr>
       <th>Team Members</th>
