@@ -61,7 +61,7 @@ we are devcom
 <h2>Our Team</h2>
 <br>
 <div class="row">
-<div class="col-lg-9">
+<div class="col-xs-9">
 <div class="well">
 <table >
 <tr>
