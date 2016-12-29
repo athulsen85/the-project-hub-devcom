@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Bootstrap for beginners</title>
+	<meta name="description" content="Hello World">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">   
+<style>
+ h1{ 
+    font-family: 'Droid Serif', serif;
+    font-size: 5em;
+    }
+table {
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
+
+</style>
+</head>
+<body>
+ 	 <hr>
+    <br>
+    <h1> &nbsp DEVCOM PROJECTS</h1>
+<br>
+<br>
+<br>
+
+
+
+<div class="container">
+<h2>About us</h2>
+<div class="row">
+<div class="col-lg-9">
+<div class="well">
+
+<p>DEVCOM (Developer community)TEAM 
+as the community is not bound by this team, its extend exceeds beyond its previous members ,seniors and passouts . I hope this time, this platform will be able to incubate some truly amazing developers out of CEC . 
+Teach.
+Learn.
+Contribute.
+hoping for the best 
+we are devcom 
+</p>
+</div></div></div></div>
+
+
+
+<div class="container">
+<h2>Our Team</h2>
+<br>
+<div class="row">
+<div class="col-lg-9">
+<div class="well">
+<table >
+<tr>
+      <th>Sooraj Parakkattil</th>
+      <th>&nbsp&nbspTeam Leader</th>
+      <th><a href="https://www.facebook.com/soorajiam"><span class="glyphicon glyphicon-user"></span></a></th>
+      </tr>
+<tr>
+      <th>Adnan Maqbool</th>
+      <th>&nbsp&nbspCommunicator</th>
+      <th><a href="https://www.facebook.com/profile.php?id=1397376003"><span class="glyphicon glyphicon-user"></span></a></th></tr>
+<tr>
+      <th>Megha Nair</th>
+      <th>&nbsp&nbspCoordinator</th>
+      <th><a href="https://www.facebook.com/megha.nair.758"><span class="glyphicon glyphicon-user"></span> </a></th></tr>
+<tr>
+      <th>Team Members</th>
+      <th><a href="https://www.facebook.com/photo.php?fbid=1286798481376571&set=a.310638012325961.73424.100001392943546&type=3&theater" class="btn">More info></a></th></tr>
+
+
+</table>
+</div></div></div></div>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
