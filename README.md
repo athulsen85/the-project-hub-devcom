@@ -67,19 +67,19 @@ we are devcom
 <tr>
       <th>Sooraj Parakkattil</th>
       <th> Team Leader</th>
-      <th><a href="https://www.facebook.com/soorajiam"><span class="glyphicon glyphicon-user"></span></a></th>
+      <th><a href="https://www.facebook.com/soorajiam" class="btn">More info</a></th>
       </tr>
 <tr>
       <th>Adnan Maqbool</th>
       <th>Communicator</th>
-      <th><a href="https://www.facebook.com/profile.php?id=1397376003"><span class="glyphicon glyphicon-user"></span></a></th></tr>
+      <th><a href="https://www.facebook.com/profile.php?id=1397376003" class="btn">More info</a></th></tr>
 <tr>
       <th>Megha Nair</th>
       <th>Coordinator</th>
-      <th><a href="https://www.facebook.com/megha.nair.758"><span class="glyphicon glyphicon-user"></span> </a></th></tr>
+      <th><a href="https://www.facebook.com/megha.nair.758" class="btn">More info </a></th></tr>
 <tr>
       <th>Team Members</th>
-      <th><a href="https://www.facebook.com/photo.php?fbid=1286798481376571&set=a.310638012325961.73424.100001392943546&type=3&theater" class="btn">More info></a></th></tr>
+      <th><a href="https://www.facebook.com/photo.php?fbid=1286798481376571&set=a.310638012325961.73424.100001392943546&type=3&theater" class="btn">More info</a></th></tr>
 
 
 </table>
