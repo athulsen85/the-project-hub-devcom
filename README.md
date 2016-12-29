@@ -17,22 +17,134 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 <style>
- h1{ 
-    font-family: 'Droid Serif', serif;
-    font-size: 5em;
-    }
 table {
     border-collapse: separate;
     border-spacing: 20px 10px;
 }
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
 
+.slideshow-container {
+  max-width: 1390px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+    font-size: 3em;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 400px) {
+  .text {font-size: 5em;}
+}
 </style>
 
   </head>
-  <body>
+  <body style="background-image:url(http://previews.123rf.com/images/ilyaka1972/ilyaka19721210/ilyaka1972121000055/15964956-technology-gray-abstract-background-Stock-Photo-wallpaper-web-design.jpg);">
     <hr>
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img1.jpg" style="width:100%">
+  <div class="text" style="height: 100vh;width: auto;"> DEVCOM PROJECTS</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="image2.jpg" style="width:100%">
+  <div class="text"> DEVCOM PROJECTS</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img4.jpg" style="width:100% ">
+  <div class="text"> DEVCOM PROJECTS</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+ 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000);
+}
+</script>
     <br>
-    <h1> DEVCOM PROJECTS</h1>
+   
 <br>
 <br>
 <br>
@@ -42,7 +154,7 @@ table {
 <div class="container">
 <h2>About us</h2>
 <div class="row">
-<div class="col-xs-9">
+<div class="col-md-7">
 <div class="well">
 
 <p>DEVCOM (Developer community)TEAM 
@@ -61,7 +173,7 @@ we are devcom
 <h2>Our Team</h2>
 <br>
 <div class="row">
-<div class="col-xs-9">
+<div class="col-lg-9">
 <div class="well">
 <table >
 <tr>
@@ -81,13 +193,25 @@ we are devcom
       <th>Team Members</th>
       <th><a href="https://www.facebook.com/photo.php?fbid=1286798481376571&set=a.310638012325961.73424.100001392943546&type=3&theater" class="btn">More info</a></th></tr>
 
-
 </table>
 </div></div></div></div>
+
+   <h3>Our New Projects</h3>
+<
+
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+ 
+
+
+
+
+
   </body>
 </html>
