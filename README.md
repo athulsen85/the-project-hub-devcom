@@ -42,7 +42,7 @@ table {
 <div class="container">
 <h2>About us</h2>
 <div class="row">
-<div class="col-lg-9">
+<div class="col-md-7">
 <div class="well">
 
 <p>DEVCOM (Developer community)TEAM 
